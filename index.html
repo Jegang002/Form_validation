@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY New Form</title>
+    <link rel="stylesheet" href="form1.css">
+    <script src="form1.js"></script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="container">
+
+            <form id="my-form" method="post" action="" onsubmit="validateForm(); return false">
+
+                <div class="css">
+                    <h1>Register</h1>
+
+                    <label for="name">Student Name:</label>
+                    <input type="text" id="name" name="name">
+                    <br>
+                    <div id="name1"></div>
+
+                    <label for="rollno">Rollno:</label>
+                    <input type="text" id="rollno" name="rollno">
+                    <div id="roll1"></div>
+                    <label for="gen">Gender:</label>
+                    <select name="gen" id="gen">
+                        <option value=""></option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select><br><br>
+                    <div id="gen1"></div>
+                    <label for="year">Year:</label>
+                    <select name="years" id="years">
+                        <option value=""></option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                    </select><br><br>
+                    <div id="year1"></div>
+                    <label for="dept">Department:</label>
+                    <select name="dept" id="dept">
+                        <option></option>
+                        <option value="CSE">CSE</option>
+                        <option value="CSD">CSD</option>
+                        <option value="IT">IT</option>
+                        <option value="ECE">ECE</option>
+                    </select><br><br>
+                    <div id="dept1"></div>
+                    <label for="sec">Section:</label>
+                    <select name="sec" id="sec">
+                        <option value=""></option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select><br><br>
+                    <div id="sec1"></div>
+                    <label for="num">Mobile Number:</label>
+                    <input type="text" id="num" name="num">
+                    <div id="mnum1"></div>
+                    <label for="mail">E-mail:</label>
+                    <input type="text" id="mail" name="mail">
+                    <div id="mail1"></div>
+                    <label for="add">Address:</label>
+                    <br>
+                    <textarea name="add" id="add"></textarea>
+                    <br><br>
+                    <div id="add1"></div>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city">
+                    <div id="city1"></div>
+                    <label for="coun">Country:</label>
+                    <input type="text" id="coun" name="coun">
+                    <div id="coun1"></div>
+                    <label for="pin">Pincode:</label>
+                    <input type="text" id="pin" name="pin">
+                    <div id="pin1"></div>
+                    <br>
+
+                </div>
+                <input type="submit"  value="Submit" class="click">
+                <br><br>
+                
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
